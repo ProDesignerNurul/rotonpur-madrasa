@@ -1,9 +1,15 @@
+import { BrowserRouter, Outlet, Route, Routes } from "react-router";
 import "./App.css";
+import Home from "./pages/Home/Home";
+import NavBar from "./pages/shared/NavBar";
 
 function App() {
   return (
     <>
-      <h2>home</h2>
+      <NavBar />
+      <div>
+        <Home />
+      </div>
     </>
   );
 }
