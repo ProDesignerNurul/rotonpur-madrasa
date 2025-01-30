@@ -1,6 +1,6 @@
 import React from "react";
-import heroImg from "../../assets/images/hero/2.jpg";
 import { NavLink } from "react-router";
+import heroImg from "../../assets/images/main-img/4.jpg";
 
 const Hero = () => {
   return (
