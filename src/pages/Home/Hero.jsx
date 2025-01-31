@@ -7,12 +7,12 @@ const Hero = () => {
     <div className="p-4 md:p-8">
       <div className="md:flex">
         <img src={heroImg} className="rounded-lg md:w-1/2 p-4" />
-        <div className="md:w-1/2 p-4 flex justify-center items-center">
+        <div className="md:w-1/2 p-4 text-center flex justify-center items-center">
           <div>
             <h1 className="text-4xl font-bold">
               আমাদের মাদ্রাসা সম্পর্কে কিছু কথা
             </h1>
-            <p className="py-2">
+            <p className="py-2 text-justify">
               মাদ্রাসা শিক্ষায় প্রথম প্রতিষ্ঠান ছিল সাফা পর্বতের পাদদেশে
               যায়েদ-বিন-আরকামের বাড়িতে - যেখানে স্বয়ং মুহাম্মাদ ছিলেন শিক্ষক
               এবং শিক্ষার্থী ছিলেন তার কয়েকজন অনুসারী নওমুসলিম। হিজরতের পর
@@ -25,7 +25,7 @@ const Hero = () => {
               প্রথম দিন থেকে উমাইয়া বংশের শাসনামলের প্রথম ভাগ পর্যন্ত প্রায়
               একশ বছর সময়কালকে মাদ্রাসা শিক্ষার প্রথম পর্যায় ধরা হয়।
             </p>
-            <p className="py-2">
+            <p className="py-2 text-justify">
               মাদ্রাসা শিক্ষায় প্রথম প্রতিষ্ঠান ছিল সাফা পর্বতের পাদদেশে
               যায়েদ-বিন-আরকামের বাড়িতে - যেখানে স্বয়ং মুহাম্মাদ ছিলেন শিক্ষক
               এবং শিক্ষার্থী ছিলেন তার কয়েকজন অনুসারী নওমুসলিম। হিজরতের পর
@@ -39,7 +39,7 @@ const Hero = () => {
               একশ বছর সময়কালকে মাদ্রাসা শিক্ষার প্রথম পর্যায় ধরা হয়।
             </p>
             <button className="btn btn-error text-white">
-              <NavLink to="/about">বিস্তারিত জানতে</NavLink>
+              <NavLink to="/about">বিস্তারিত জানতে ক্লিক করুন</NavLink>
             </button>
           </div>
         </div>

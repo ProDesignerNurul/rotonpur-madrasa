@@ -21,47 +21,47 @@ const Admission = () => {
               <tbody>
                 <tr>
                   <td>০১</td>
-                  <td>হেদায়াতুন নাহু</td>
+                  <td className="font-semibold">হেদায়াতুন নাহু</td>
                   <td>৪৫০/= টাকা</td>
                 </tr>
                 <tr>
                   <td>০২</td>
-                  <td>নাহবেমীর</td>
+                  <td className="font-semibold">নাহবেমীর</td>
                   <td>৪০০/= টাকা</td>
                 </tr>
                 <tr>
                   <td>০৩</td>
-                  <td>মীযানুস সরফ</td>
+                  <td className="font-semibold">মীযানুস সরফ</td>
                   <td>৩৫০/= টাকা</td>
                 </tr>
                 <tr>
                   <td>০৪</td>
-                  <td>মক্তব পাঞ্জম</td>
+                  <td className="font-semibold">মক্তব পাঞ্জম</td>
                   <td>৩০০/= টাকা</td>
                 </tr>
                 <tr>
                   <td>০৫</td>
-                  <td>মক্তব চাহারাম</td>
+                  <td className="font-semibold">মক্তব চাহারাম</td>
                   <td>২৫০/= টাকা</td>
                 </tr>
                 <tr>
                   <td>০৬</td>
-                  <td>নূরানী তৃতীয় শ্রেণী</td>
+                  <td className="font-semibold">নূরানী তৃতীয় শ্রেণী</td>
                   <td>২০০/= টাকা</td>
                 </tr>
                 <tr>
                   <td>০৭</td>
-                  <td>নূরানী দ্বিতীয় শ্রেণী</td>
+                  <td className="font-semibold">নূরানী দ্বিতীয় শ্রেণী</td>
                   <td>১৮০/= টাকা</td>
                 </tr>
                 <tr>
                   <td>০৮</td>
-                  <td>নূরানী প্রথম শ্রেণী</td>
+                  <td className="font-semibold">নূরানী প্রথম শ্রেণী</td>
                   <td>১৫০/= টাকা</td>
                 </tr>
                 <tr>
                   <td>০৯</td>
-                  <td>নূরানী শিশু শ্রেণী</td>
+                  <td className="font-semibold">নূরানী শিশু শ্রেণী</td>
                   <td>১২০/= টাকা</td>
                 </tr>
               </tbody>
@@ -83,47 +83,47 @@ const Admission = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>মাওঃ আব্দুল মুকিত</td>
+                  <td className="font-semibold">মাওঃ আব্দুল মুকিত</td>
                   <td>মুহতামিম</td>
                   <td>০১৭৩৩ ৭৭৪৭৩০</td>
                 </tr>
                 <tr>
-                  <td>মাওঃ ইকবাল মাহমুদ</td>
+                  <td className="font-semibold">মাওঃ ইকবাল মাহমুদ</td>
                   <td>শিক্ষা সচিব</td>
                   <td>০১৮৮০ ৫৯৩২৫২</td>
                 </tr>
                 <tr>
-                  <td>মাওঃ আমিনুর রহমান</td>
+                  <td className="font-semibold">মাওঃ আমিনুর রহমান</td>
                   <td>সাধারণ শিক্ষক</td>
                   <td>০১৭১৭ ৭৯৩৪৬৮</td>
                 </tr>
                 <tr>
-                  <td>মাওঃ ইমরান আহমদ</td>
+                  <td className="font-semibold">মাওঃ ইমরান আহমদ</td>
                   <td>হিসাব রক্ষক</td>
                   <td>০১৮২০ ৬১৮০৭৬</td>
                 </tr>
                 <tr>
-                  <td>হাফিজ সাব্বির আহমদ</td>
+                  <td className="font-semibold">হাফিজ সাব্বির আহমদ</td>
                   <td>সাধারণ শিক্ষক</td>
                   <td>০১৮৭১ ৮৩৭৬১৫</td>
                 </tr>
                 <tr>
-                  <td>. . .</td>
-                  <td>. . .</td>
-                  <td>. . .</td>
-                </tr>
-                <tr>
-                  <td>. . .</td>
+                  <td className="font-semibold">. . .</td>
                   <td>. . .</td>
                   <td>. . .</td>
                 </tr>
                 <tr>
-                  <td>. . .</td>
+                  <td className="font-semibold">. . .</td>
                   <td>. . .</td>
                   <td>. . .</td>
                 </tr>
                 <tr>
+                  <td className="font-semibold">. . .</td>
                   <td>. . .</td>
+                  <td>. . .</td>
+                </tr>
+                <tr>
+                  <td className="font-semibold">. . .</td>
                   <td>. . .</td>
                   <td>. . .</td>
                 </tr>

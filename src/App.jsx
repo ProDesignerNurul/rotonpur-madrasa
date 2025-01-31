@@ -5,12 +5,12 @@ import NavBar from "./pages/shared/NavBar";
 
 function App() {
   return (
-    <>
+    <div>
       <NavBar />
       <div>
         <Home />
       </div>
-    </>
+    </div>
   );
 }
 
