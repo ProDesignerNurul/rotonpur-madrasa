@@ -11,11 +11,11 @@ const Chairman = () => {
           <div className="flex justify-start gap-2 items-center px-4">
             <img className="w-24 rounded-md" src={chairmanImg} alt="" />
             <div>
-              <h2>উপাধ্যক্ষ শফিক উদ্দিন</h2>
+              <h2 className="font-semibold">উপাধ্যক্ষ শফিক উদ্দিন</h2>
               <p>মাদ্রাসা পরিচালনা কমিটির বর্তমান সভাপতি</p>
               <p> রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</p>
             </div>
-            <img className="w-24 rounded-md" src={logoImg} alt="" />
+            {/* <img className="w-24 rounded-md" src={logoImg} alt="" /> */}
           </div>
         </div>
         <div className="divider lg:divider-horizontal"></div>
@@ -23,11 +23,11 @@ const Chairman = () => {
           <div className="flex justify-start gap-2 items-center px-4">
             <img className="w-24 rounded-md" src={muhtamimImg} alt="" />
             <div>
-              <h2>মাওঃ আব্দুল মুকিত</h2>
-              <p>মুহতামিম</p>
+              <h2 className="font-semibold">মাওঃ আব্দুল মুকিত রতনপুরী</h2>
+              <p>বর্তমান মুহতামিম</p>
               <p> রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</p>
             </div>
-            <img className="w-24 rounded-md" src={logoImg} alt="" />
+            {/* <img className="w-24 rounded-md" src={logoImg} alt="" /> */}
           </div>
         </div>
       </div>

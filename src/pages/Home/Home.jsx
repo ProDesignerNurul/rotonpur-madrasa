@@ -6,6 +6,7 @@ import Donors from "./Donors";
 import FoundingMembers from "../FoundingMembers/FoundingMembers";
 import OurClasses from "../OurClasses/OurClasses";
 import Chairman from "../Chairman/Chairman";
+import ExamResult from "../ExamResult/ExamResult";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Chairman />
       <Admission />
       <OurClasses />
+      <ExamResult />
       <Hero />
       <Donors />
       <FoundingMembers />

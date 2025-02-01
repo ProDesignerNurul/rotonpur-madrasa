@@ -15,7 +15,7 @@ const FoundingMembers = () => {
               <th>ছবি</th>
               <th>নাম</th>
               <th>ঠিকানা</th>
-              <th>মোবাইল</th>
+              {/* <th>মোবাইল</th> */}
               <th>প্রতিষ্ঠা সন</th>
             </tr>
           </thead>
@@ -36,7 +36,7 @@ const FoundingMembers = () => {
               </td>
               <td className="font-semibold">হাজী আব্দুল হান্নান</td>
               <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
-              <td>০১৭৭৯ ৯৫৯৬৬৫</td>
+              {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
               <td>২০১৯ ইংরেজি</td>
             </tr>
             <tr>
@@ -55,7 +55,7 @@ const FoundingMembers = () => {
               </td>
               <td className="font-semibold">হাজী আব্দুল হান্নান</td>
               <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
-              <td>০১৭৭৯ ৯৫৯৬৬৫</td>
+              {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
               <td>২০১৯ ইংরেজি</td>
             </tr>
             <tr>
@@ -74,7 +74,7 @@ const FoundingMembers = () => {
               </td>
               <td className="font-semibold">হাজী আব্দুল হান্নান</td>
               <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
-              <td>০১৭৭৯ ৯৫৯৬৬৫</td>
+              {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
               <td>২০১৯ ইংরেজি</td>
             </tr>
             <tr>
@@ -93,7 +93,7 @@ const FoundingMembers = () => {
               </td>
               <td className="font-semibold">হাজী আব্দুল হান্নান</td>
               <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
-              <td>০১৭৭৯ ৯৫৯৬৬৫</td>
+              {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
               <td>২০১৯ ইংরেজি</td>
             </tr>
             <tr>
@@ -112,7 +112,7 @@ const FoundingMembers = () => {
               </td>
               <td className="font-semibold">হাজী আব্দুল হান্নান</td>
               <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
-              <td>০১৭৭৯ ৯৫৯৬৬৫</td>
+              {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
               <td>২০১৯ ইংরেজি</td>
             </tr>
             <tr>
@@ -131,7 +131,7 @@ const FoundingMembers = () => {
               </td>
               <td className="font-semibold">হাজী আব্দুল হান্নান</td>
               <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
-              <td>০১৭৭৯ ৯৫৯৬৬৫</td>
+              {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
               <td>২০১৯ ইংরেজি</td>
             </tr>
             <tr>
@@ -150,7 +150,7 @@ const FoundingMembers = () => {
               </td>
               <td className="font-semibold">হাজী আব্দুল হান্নান</td>
               <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
-              <td>০১৭৭৯ ৯৫৯৬৬৫</td>
+              {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
               <td>২০১৯ ইংরেজি</td>
             </tr>
             <tr>
@@ -169,7 +169,7 @@ const FoundingMembers = () => {
               </td>
               <td className="font-semibold">হাজী আব্দুল হান্নান</td>
               <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
-              <td>০১৭৭৯ ৯৫৯৬৬৫</td>
+              {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
               <td>২০১৯ ইংরেজি</td>
             </tr>
             <tr>
@@ -188,7 +188,7 @@ const FoundingMembers = () => {
               </td>
               <td className="font-semibold">হাজী আব্দুল হান্নান</td>
               <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
-              <td>০১৭৭৯ ৯৫৯৬৬৫</td>
+              {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
               <td>২০১৯ ইংরেজি</td>
             </tr>
             <tr>
@@ -207,7 +207,7 @@ const FoundingMembers = () => {
               </td>
               <td className="font-semibold">হাজী আব্দুল হান্নান</td>
               <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
-              <td>০১৭৭৯ ৯৫৯৬৬৫</td>
+              {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
               <td>২০১৯ ইংরেজি</td>
             </tr>
           </tbody>
