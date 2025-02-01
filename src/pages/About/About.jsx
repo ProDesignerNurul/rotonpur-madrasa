@@ -6,8 +6,10 @@ const About = () => {
   return (
     <div>
       <NavBar />
-      <div className="pt-16">
-        <OurGallery />
+      <div className="p-4 md:p-8">
+        <div className="pt-16">
+          <OurGallery />
+        </div>
       </div>
     </div>
   );
