@@ -1,13 +1,12 @@
 import React from "react";
+import MainHeading from "../../components/MainHeading";
 
 const OurClasses = () => {
   return (
     <div className="p-4 md:p-8">
-      <h2 className="text-3xl font-semibold text-center my-4">
-        আমাদের বিভাগ সমূহ
-      </h2>
+      <MainHeading heading="আমাদের বিভাগ সমূহ" />
       <div className="md:flex">
-        <div className="md:w-1/2 p-4 md:p-8">
+        <div className="md:w-1/2 px-4 md:px-8">
           <div className="collapse collapse-arrow bg-base-100 border border-base-300">
             <input type="radio" name="my-accordion-2" defaultChecked />
             <div className="collapse-title font-semibold">হেদায়াতুন নাহু</div>
@@ -59,7 +58,7 @@ const OurClasses = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-1/2 p-4 md:p-8">
+        <div className="md:w-1/2 px-4 md:px-8">
           <div className="collapse collapse-arrow bg-base-100 border border-base-300">
             <input type="radio" name="my-accordion-2" defaultChecked />
             <div className="collapse-title font-semibold">

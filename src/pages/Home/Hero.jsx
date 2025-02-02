@@ -9,7 +9,7 @@ const Hero = () => {
         <img src={heroImg} className="rounded-lg md:w-1/2 p-4" />
         <div className="md:w-1/2 p-4 text-center flex justify-center items-center">
           <div>
-            <h1 className="text-4xl font-bold">
+            <h1 className="text-3xl font-bold">
               আমাদের মাদ্রাসা সম্পর্কে কিছু কথা
             </h1>
             <p className="py-2 text-justify">

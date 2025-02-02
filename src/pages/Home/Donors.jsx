@@ -1,11 +1,10 @@
 import React from "react";
+import MainHeading from "../../components/MainHeading";
 
 const Donors = () => {
   return (
     <div className="my-4 md:my-8">
-      <h2 className="text-3xl font-semibold text-center my-4">
-        দাতা সদস্যদের তালিকা
-      </h2>
+      <MainHeading heading="দাতা সদস্যদের তালিকা" />
       <p className="w-10/12 md:w-8/12 mx-auto text-center border-b-2 pb-2">
         <span className="font-semibold">বিঃ দ্রঃ</span> যিনি ৫০০০০ হাজার বা তার
         অধিক টাকা এক-কালীন মাদ্রাসায় দান করবেন তিনি মাদ্রাসার ভূমিদাতা হিসেবে

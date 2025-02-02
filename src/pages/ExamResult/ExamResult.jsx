@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router";
+import MainHeading from "../../components/MainHeading";
 
 const ExamResult = () => {
   return (
     <div className="p-4 md:p-8">
-      <h2 className="text-3xl font-semibold text-center my-4">
-        পরীক্ষার রেজাল্ট
-      </h2>
+      <MainHeading heading="পরীক্ষার রেজাল্ট" />
       <div className="grid md:grid-cols-3 gap-6">
         <div className="border p-4 rounded-md text-center">
           <h2 className="text-2xl font-semibold mb-2">২০২৫ ইংরেজি</h2>

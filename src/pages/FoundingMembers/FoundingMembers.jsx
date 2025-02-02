@@ -8,13 +8,15 @@ import sabbirAhmed from "../../assets/images/founding-member/sabbir-ahmed.png";
 import iqbalMahmud from "../../assets/images/founding-member/iqbal-mahmud.png";
 import nurulAmin from "../../assets/images/founding-member/nurul-amin.png";
 import shafiulIslam from "../../assets/images/founding-member/shafiul-islam.png";
+import MainHeading from "../../components/MainHeading";
+
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 const FoundingMembers = () => {
   return (
     <div className="p-4 md:p-8">
-      <h2 className="text-3xl font-semibold text-center my-4">
-        প্রতিষ্ঠাতা সদস্যদের তালিকা
-      </h2>
+      <MainHeading heading="প্রতিষ্ঠাতা সদস্যদের তালিকা" />
       <div className="overflow-x-auto">
         <table className="table">
           <thead>
@@ -34,11 +36,13 @@ const FoundingMembers = () => {
                 <div className="flex items-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle h-12 w-12">
-                      <img
-                        className="transform hover:scale-200 transition duration-300"
-                        src={abdulMukit}
-                        alt="Avatar Tailwind CSS Component"
-                      />
+                      <Zoom>
+                        <img
+                          className="transform hover:scale-200 transition duration-300"
+                          src={abdulMukit}
+                          alt="Abdul Mukit"
+                        />
+                      </Zoom>
                     </div>
                   </div>
                 </div>
@@ -54,11 +58,13 @@ const FoundingMembers = () => {
                 <div className="flex items-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle h-12 w-12">
-                      <img
-                        className="transform hover:scale-200 transition duration-300"
-                        src={suhelBari}
-                        alt="Avatar Tailwind CSS Component"
-                      />
+                      <Zoom>
+                        <img
+                          className="transform hover:scale-200 transition duration-300"
+                          src={suhelBari}
+                          alt="Suhel Bari"
+                        />
+                      </Zoom>
                     </div>
                   </div>
                 </div>
@@ -74,11 +80,13 @@ const FoundingMembers = () => {
                 <div className="flex items-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle h-12 w-12">
-                      <img
-                        className="transform hover:scale-200 transition duration-300"
-                        src={aminurRahman}
-                        alt="Avatar Tailwind CSS Component"
-                      />
+                      <Zoom>
+                        <img
+                          className="transform hover:scale-200 transition duration-300"
+                          src={aminurRahman}
+                          alt="Aminur Rahman"
+                        />
+                      </Zoom>
                     </div>
                   </div>
                 </div>
@@ -94,11 +102,13 @@ const FoundingMembers = () => {
                 <div className="flex items-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle h-12 w-12">
-                      <img
-                        className="transform hover:scale-200 transition duration-300"
-                        src={imranAhmed}
-                        alt="Avatar Tailwind CSS Component"
-                      />
+                      <Zoom>
+                        <img
+                          className="transform hover:scale-200 transition duration-300"
+                          src={imranAhmed}
+                          alt="Imran Ahmed"
+                        />
+                      </Zoom>
                     </div>
                   </div>
                 </div>
@@ -114,11 +124,13 @@ const FoundingMembers = () => {
                 <div className="flex items-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle h-12 w-12">
-                      <img
-                        className="transform hover:scale-200 transition duration-300"
-                        src={sabbirAhmed}
-                        alt="Avatar Tailwind CSS Component"
-                      />
+                      <Zoom>
+                        <img
+                          className="transform hover:scale-200 transition duration-300"
+                          src={sabbirAhmed}
+                          alt="Sabbir Ahmed"
+                        />
+                      </Zoom>
                     </div>
                   </div>
                 </div>
@@ -134,11 +146,13 @@ const FoundingMembers = () => {
                 <div className="flex items-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle h-12 w-12">
-                      <img
-                        className="transform hover:scale-200 transition duration-300"
-                        src={iqbalMahmud}
-                        alt="Avatar Tailwind CSS Component"
-                      />
+                      <Zoom>
+                        <img
+                          className="transform hover:scale-200 transition duration-300"
+                          src={iqbalMahmud}
+                          alt="Iqbal Mahmud"
+                        />
+                      </Zoom>
                     </div>
                   </div>
                 </div>
@@ -154,11 +168,13 @@ const FoundingMembers = () => {
                 <div className="flex items-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle h-12 w-12">
-                      <img
-                        className="transform hover:scale-200 transition duration-300"
-                        src={nurulAmin}
-                        alt="Avatar Tailwind CSS Component"
-                      />
+                      <Zoom>
+                        <img
+                          className="transform hover:scale-200 transition duration-300"
+                          src={nurulAmin}
+                          alt="Nurul Amin"
+                        />
+                      </Zoom>
                     </div>
                   </div>
                 </div>
@@ -174,56 +190,18 @@ const FoundingMembers = () => {
                 <div className="flex items-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle h-12 w-12">
-                      <img
-                        className="transform hover:scale-200 transition duration-300"
-                        src={shafiulIslam}
-                        alt="Avatar Tailwind CSS Component"
-                      />
+                      <Zoom>
+                        <img
+                          className="transform hover:scale-200 transition duration-300"
+                          src={shafiulIslam}
+                          alt="Shafiul Islam Mitu"
+                        />
+                      </Zoom>
                     </div>
                   </div>
                 </div>
               </td>
               <td className="font-semibold">হাফিজ মাও. শাফিউল ইসলাম মিঠু</td>
-              <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
-              {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
-              {/* <td>২০১৯ ইংরেজি</td> */}
-            </tr>
-            <tr>
-              <td>০৯</td>
-              <td>
-                <div className="flex items-center gap-3">
-                  <div className="avatar">
-                    <div className="mask mask-squircle h-12 w-12">
-                      <img
-                        className="transform hover:scale-200 transition duration-300"
-                        src={foundingMemberImg}
-                        alt="Avatar Tailwind CSS Component"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </td>
-              <td className="font-semibold">হাজী আব্দুল হান্নান</td>
-              <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
-              {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
-              {/* <td>২০১৯ ইংরেজি</td> */}
-            </tr>
-            <tr>
-              <td>১০</td>
-              <td>
-                <div className="flex items-center gap-3">
-                  <div className="avatar">
-                    <div className="mask mask-squircle h-12 w-12">
-                      <img
-                        className="transform hover:scale-200 transition duration-300"
-                        src={foundingMemberImg}
-                        alt="Avatar Tailwind CSS Component"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </td>
-              <td className="font-semibold">হাজী আব্দুল হান্নান</td>
               <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
               {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
               {/* <td>২০১৯ ইংরেজি</td> */}
