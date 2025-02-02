@@ -106,26 +106,6 @@ const Admission = () => {
                   <td>সাধারণ শিক্ষক</td>
                   <td>০১৮৭১ ৮৩৭৬১৫</td>
                 </tr>
-                <tr>
-                  <td className="font-semibold">. . .</td>
-                  <td>. . .</td>
-                  <td>. . .</td>
-                </tr>
-                <tr>
-                  <td className="font-semibold">. . .</td>
-                  <td>. . .</td>
-                  <td>. . .</td>
-                </tr>
-                <tr>
-                  <td className="font-semibold">. . .</td>
-                  <td>. . .</td>
-                  <td>. . .</td>
-                </tr>
-                <tr>
-                  <td className="font-semibold">. . .</td>
-                  <td>. . .</td>
-                  <td>. . .</td>
-                </tr>
               </tbody>
             </table>
           </div>
