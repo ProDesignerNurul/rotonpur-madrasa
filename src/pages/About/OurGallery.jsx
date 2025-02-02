@@ -1,4 +1,6 @@
 import React from "react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 import oldImg1 from "../../assets/images/old-img/1.jpg";
 import oldImg2 from "../../assets/images/old-img/2.jpg";
 import oldImg3 from "../../assets/images/old-img/3.jpg";
@@ -42,273 +44,341 @@ const OurGallery = () => {
       </h2>
       <div className="p-4 md:p-8 mx-auto grid md:grid-cols-3 gap-4">
         <div className="card bg-base-100 w-96 shadow-sm transpare">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg1} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg1} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg2} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg2} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg3} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg3} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg4} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg4} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg5} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg5} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg6} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg6} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg7} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg7} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg8} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg8} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg9} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg9} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg10} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg10} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg11} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg11} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg12} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg12} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg13} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg13} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg14} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg14} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg15} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg15} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg16} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg16} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg17} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg17} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg18} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg18} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg20} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg20} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg21} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg21} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg22} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg22} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg23} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg23} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg24} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg24} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg25} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg25} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg26} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg26} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg27} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg27} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg28} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg28} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg29} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg29} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg30} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg30} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg31} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg31} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg32} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg32} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg33} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg33} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg34} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg34} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
         </div>
         <div className="card bg-base-100 w-96 shadow-sm">
-          <figure className="transform hover:scale-200 transition duration-300">
-            <img src={oldImg35} alt="" />
-          </figure>
+          <Zoom>
+            <figure>
+              <img src={oldImg35} alt="" />
+            </figure>
+          </Zoom>
           <div className="card-body">
             <p>মাদ্রাসার বিল্ডিং এর কাজ শুরু লগ্নে</p>
           </div>
