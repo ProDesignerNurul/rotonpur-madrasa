@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../shared/NavBar";
 import OurGallery from "./OurGallery";
+import Footer from "../shared/Footer";
 
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
           <OurGallery />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

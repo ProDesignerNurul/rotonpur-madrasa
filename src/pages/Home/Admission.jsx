@@ -6,7 +6,7 @@ const Admission = () => {
     <div className=" my-4 md:my-8">
       <MainHeading heading="ভর্তি সংক্রান্ত বিষয়" />
       <div className="md:flex">
-        <div className="md:w-1/2 px-4">
+        <div className="md:w-1/2 px-4 md:px-8">
           <h2 className=" text-center font-semibold my-2">ভর্তি ফি</h2>
           <div className="overflow-x-auto rounded-box border border-base-content/5 bg-base-100">
             <table className="table">
@@ -67,7 +67,7 @@ const Admission = () => {
             </table>
           </div>
         </div>
-        <div className="md:w-1/2 px-4">
+        <div className="md:w-1/2 px-4 md:px-8">
           <h2 className="text-center font-semibold my-2">
             ভর্তির জন্য যোগাযোগ
           </h2>
