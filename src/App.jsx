@@ -12,13 +12,15 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 1000);
   }, []);
 
   return (
-    <div className="min-h-screen flex justify-center items-center">
+    <div>
       {loading ? (
-        <span className="loading loading-bars loading-xl"></span>
+        <div className="min-h-screen flex justify-center items-center">
+          <span className="loading loading-bars loading-xl"></span>
+        </div>
       ) : (
         <div>
           <NavBar />

@@ -2,7 +2,7 @@ import React from "react";
 import GoBackButton from "../../components/GoBackButton";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
-import examImg from "../../assets/images/exam/2025/1st/21.jpg";
+import examImg from "../../assets/images/exam/2025/1st/marksheet.png";
 
 const ExamOf2021Year = () => {
   return (
