@@ -1,5 +1,5 @@
 import React from "react";
-import foundingMemberImg from "../../assets/images/founding-member/3.jpg";
+import abdulHannan from "../../assets/images/founding-member/abdul-hannan.png";
 import abdulMukit from "../../assets/images/founding-member/abdul-mukit.png";
 import suhelBari from "../../assets/images/founding-member/suhel-bari.png";
 import aminurRahman from "../../assets/images/founding-member/aminur-rahman.png";
@@ -39,6 +39,28 @@ const FoundingMembers = () => {
                       <Zoom>
                         <img
                           className="transform hover:scale-200 transition duration-300"
+                          src={abdulHannan}
+                          alt="Abdul Mukit"
+                        />
+                      </Zoom>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td className="font-semibold">হাজী আব্দুল হান্নান</td>
+              <td>রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।</td>
+              {/* <td>০১৭৭৯ ৯৫৯৬৬৫</td> */}
+              {/* <td>২০১৯ ইংরেজি</td> */}
+            </tr>
+            <tr>
+              <td>০২</td>
+              <td>
+                <div className="flex items-center gap-3">
+                  <div className="avatar">
+                    <div className="mask mask-squircle h-12 w-12">
+                      <Zoom>
+                        <img
+                          className="transform hover:scale-200 transition duration-300"
                           src={abdulMukit}
                           alt="Abdul Mukit"
                         />
@@ -53,7 +75,7 @@ const FoundingMembers = () => {
               {/* <td>২০১৯ ইংরেজি</td> */}
             </tr>
             <tr>
-              <td>০২</td>
+              <td>০৩</td>
               <td>
                 <div className="flex items-center gap-3">
                   <div className="avatar">
@@ -75,7 +97,7 @@ const FoundingMembers = () => {
               {/* <td>২০১৯ ইংরেজি</td> */}
             </tr>
             <tr>
-              <td>০৩</td>
+              <td>০৪</td>
               <td>
                 <div className="flex items-center gap-3">
                   <div className="avatar">
@@ -97,7 +119,7 @@ const FoundingMembers = () => {
               {/* <td>২০১৯ ইংরেজি</td> */}
             </tr>
             <tr>
-              <td>০৪</td>
+              <td>০৫</td>
               <td>
                 <div className="flex items-center gap-3">
                   <div className="avatar">
@@ -119,7 +141,7 @@ const FoundingMembers = () => {
               {/* <td>২০১৯ ইংরেজি</td> */}
             </tr>
             <tr>
-              <td>০৫</td>
+              <td>০৬</td>
               <td>
                 <div className="flex items-center gap-3">
                   <div className="avatar">
@@ -141,7 +163,7 @@ const FoundingMembers = () => {
               {/* <td>২০১৯ ইংরেজি</td> */}
             </tr>
             <tr>
-              <td>০৬</td>
+              <td>০৭</td>
               <td>
                 <div className="flex items-center gap-3">
                   <div className="avatar">
@@ -163,7 +185,7 @@ const FoundingMembers = () => {
               {/* <td>২০১৯ ইংরেজি</td> */}
             </tr>
             <tr>
-              <td>০৭</td>
+              <td>০৮</td>
               <td>
                 <div className="flex items-center gap-3">
                   <div className="avatar">
@@ -185,7 +207,7 @@ const FoundingMembers = () => {
               {/* <td>২০১৯ ইংরেজি</td> */}
             </tr>
             <tr>
-              <td>০৮</td>
+              <td>০৯</td>
               <td>
                 <div className="flex items-center gap-3">
                   <div className="avatar">

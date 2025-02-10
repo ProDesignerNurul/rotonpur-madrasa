@@ -16,7 +16,7 @@ const Banner = () => {
           রতনপুর, গহরপুর, বালাগঞ্জ, সিলেট।
         </p>
         <p className="md:text-5xl text-orange-900 font-semibold md:my-4">
-          স্থাপিত : ২০১৯ ইংরেজি
+          স্থাপিত : ২০২০ ইংরেজি
         </p>
       </div>
     </div>

@@ -28,7 +28,9 @@ const Footer = () => {
           >
             ফেইসবুক
           </a>
-          <Link className="link link-hover">হোয়াটসঅ্যাপ</Link>
+          <a href="https://wa.me/+8801733774730" className="link link-hover">
+            হোয়াটসঅ্যাপ
+          </a>
         </nav>
       </footer>
     </div>
